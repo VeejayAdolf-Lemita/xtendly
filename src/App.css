@@ -146,21 +146,26 @@ button{
   .form-wrapper{
     flex-direction: column;
   }
+  
   .title-container{
     width: 100%;
     padding: 18px 6px;
     border-radius: 8px 8px 0 0 ;
   }
+
   .title-container h2{
     margin-bottom: 12px;
     font-size: 22px;
   }
+
   .title-container p{
     font-size: 16px;
   }
+
   .triangle{
     display: none;
   }
+
   .triangle-form__container {
     border-radius: 0 0 8px 8px;
     width: 100%;
@@ -172,8 +177,8 @@ button{
   }
 
   .form-title h2 {
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;  
+  }
 
   .inputs{
     flex-direction: column;
@@ -185,20 +190,20 @@ button{
   .banner-image {
     top: 40%;
   }
+
   .banner-image img {
     width: 90%;
-  }
-  .form-title h2 {
-    margin-bottom: 0;
-  }
-
-  .title-container h2 {
-    margin-bottom: 2px;
   }
 
   .form-title h2 {
     max-width: 200px;
     padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .title-container h2 {
+    margin-bottom: 2px;
   }
   
   .triangle-form__container {
